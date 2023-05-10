@@ -21,7 +21,7 @@ files: [
   # Source files filter
   # e.g. "/resources/en/*.json"
   #
-  "source" : "",
+  "source" : "/webapps/src/main/resources/locale/portlet/test_en.properties",
 
   #
   # Where translations will be placed
