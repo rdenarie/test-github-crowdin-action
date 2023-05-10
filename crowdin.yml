@@ -27,7 +27,7 @@ files: [
   # Where translations will be placed
   # e.g. "/resources/%two_letters_code%/%original_file_name%"
   #
-  "translation" : "",
+  "translation" : "/webapps/src/main/resources/locale/portlet/%original_file_name%_%locale%.properties",
 
   #
   # Files or directories for ignore
