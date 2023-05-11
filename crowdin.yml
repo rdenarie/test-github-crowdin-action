@@ -27,7 +27,10 @@ files: [
   # Where translations will be placed
   # e.g. "/resources/%two_letters_code%/%original_file_name%"
   #
-  "translation" : "/webapps/src/main/resources/locale/portlet/%original_file_name%_%locale%.properties",
+  "translation" : "%original_path%/%original_file_name%",
+  "translation_replace": {
+    "_en": "%locale%"
+  }
 
   #
   # Files or directories for ignore
@@ -51,7 +54,7 @@ files: [
   # The parameter "update_option" is optional. If it is not set, after the files update the translations for changed strings will be removed. Use to fix typos and for minor changes in the source strings
   # e.g. "update_as_unapproved" or "update_without_changes"
   #
-  #"update_option" : "",
+  "update_option" : "update_as_unapproved",
 
   #
   # Start block (for XML only)
