@@ -27,8 +27,10 @@ files: [
   # Where translations will be placed
   # e.g. "/resources/%two_letters_code%/%original_file_name%"
   #
-  "translation" : "%original_path%/%file_name%_%locale_with_underscore%.%file_extension%",
-  
+  "translation" : "%original_path%/%file_name%!_%locale_with_underscore%.%file_extension%",
+  "translation_replace" : {
+    "_en!":""
+  },
   
   "languages_mapping" : {
     "locale_with_underscore" : {
