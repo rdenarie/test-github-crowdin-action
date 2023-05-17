@@ -30,7 +30,7 @@ files: [
   "translation" : "%original_path%/%file_name%_%two_letters_code%.%file_extension%",
   "translation_replace": {
       "%file_name%_en": "%file_name%"
-    }
+  },
 
   #
   # Files or directories for ignore
