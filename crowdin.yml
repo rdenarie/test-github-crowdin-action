@@ -34,10 +34,10 @@ files: [
     "locale_with_underscore" : {
       "de_DE": "de",
       "en_US": "en",
-      "es_ES": "es",
+      "es_ES": "es_ES",
       "fr_FR": "fr",
       "it_IT": "it",
-      "pt_BR": "pt",
+      "pt_BR": "pt_BR",
      },
 
   #
