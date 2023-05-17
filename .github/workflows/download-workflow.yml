@@ -18,7 +18,7 @@ jobs:
           download_translations: true
           localization_branch_name: integration/6.5.x-translations
 
-          create_pull_request: true
+          create_pull_request: false
           pull_request_title: 'New Crowdin translations'
           pull_request_body: 'New Crowdin pull request with translations'
           pull_request_base_branch_name: 'main'
