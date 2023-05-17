@@ -27,10 +27,18 @@ files: [
   # Where translations will be placed
   # e.g. "/resources/%two_letters_code%/%original_file_name%"
   #
-  "translation" : "%original_path%/%file_name%_%two_letters_code%.%file_extension%",
-  "translation_replace": {
-      "%file_name%_en": "%file_name%"
-  },
+  "translation" : "%original_path%/%file_name%_%locale_with_underscore%.%file_extension%",
+  
+  
+  "languages_mapping" : {
+    "locale_with_underscore" : {
+      "de_DE": "de",
+      "en_US": "en",
+      "es_ES": "es",
+      "fr_FR": "fr",
+      "it_IT": "it",
+      "pt_BR": "pt",
+     },
 
   #
   # Files or directories for ignore
