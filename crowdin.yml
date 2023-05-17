@@ -38,7 +38,8 @@ files: [
       "fr_FR": "fr",
       "it_IT": "it",
       "pt_BR": "pt_BR",
-     },
+     }
+  },
 
   #
   # Files or directories for ignore
