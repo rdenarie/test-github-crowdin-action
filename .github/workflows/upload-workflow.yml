@@ -3,7 +3,9 @@ name: Crowdin Upload Action
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+      - stable/6.4.x
 
 jobs:
   crowdin-upload:
