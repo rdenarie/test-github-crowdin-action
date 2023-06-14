@@ -19,7 +19,7 @@ jobs:
           localization_branch_name: integration/6.5.x-translation
           crowdin_branch_name: develop-exo
           create_pull_request: false
-          pull_request_base_branch_name: 'develop-exo'
+          pull_request_base_branch_name: 'develop'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
