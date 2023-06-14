@@ -17,7 +17,6 @@ jobs:
           upload_translations: false
           download_translations: true
           localization_branch_name: integration/6.5.x-translation
-          crowdin_branch_name: develop
 
           create_pull_request: false
           pull_request_base_branch_name: 'develop'
