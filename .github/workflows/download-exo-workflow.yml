@@ -16,8 +16,8 @@ jobs:
           upload_sources: false
           upload_translations: false
           download_translations: true
-          localization_branch_name: integration/6.5.x-translation
-
+          localization_branch_name: integration/6.5.x-exo-translation
+          crowdin_branch_name: develop-exo
           create_pull_request: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
